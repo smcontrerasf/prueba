@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		OVI Estructura básica de html5 (etiquetas, atributos y valores)
+	</title>
+	<link rel="icon"  href="img/icono.PNG">
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link href = "https://fonts.googleapis.com/css2? family = Shadows + Into + Light & display = swap" rel = "hoja de estilo">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 
+}
+
+header{
+	position: relative;
+	margin:20px auto;
+	width: 1000px;
+	height: 120px;
+	background: #ffffff6b;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	line-height: 55px;
+}
+
+#logo{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 120px;
+	height: 100px;
+}
+
+.redes{
+	position: absolute;
+	width: 42px;
+	height: 42px;
+	background: #f7f7f7;
+	border-radius: 100%;
+}
+
+#icono1{
+	top: 42px;
+	right: 122px;
+}
+
+#icono2{
+	top: 42px;
+	right: 71px;
+}
+
+#icono3{
+	top: 42px;
+	right: 19px;
+}
+
+nav{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 48px;
+}
+
+.botones{
+	float: left;
+	width: 196px;
+	margin: 0px 2px;
+	height: 48px;
+	background: #607d8b;
+	font-family: 'Fredoka One', cursive;
+	font-size: 20px;
+	text-align: center;
+	line-height: 48px;
+	color: #e8af02;
+}
+
+#top{
+	position: relative;
+	margin:20px auto;
+	width: 1000px;
+	height: 192px;
+}
+
+#top ul{
+	width: 1010px;
+	height: 192px;
+}
+
+#top ul li{
+	float: left;
+	width: 326px;
+	height: 192px;
+	background: black;
+	margin-right: 10px;
+}
+
+section{
+	position: relative;
+	margin:auto;
+	width: 1000px;
+	height: 453px;
+}
+
+aside#izq{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 453px;
+	background: #ff9800bf;
+}
+
+article{
+	position: absolute;
+	left: 200px;
+	top: 0;
+	width: 600px;
+	height: 453px;
+	background: #fdfdfdc7;
+	text-align: center;
+}
+
+article img{
+	border-radius: 100%;
+	height: 250px;
+}
+
+aside#der{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	width: 200px;
+	height: 453px;
+	background: #ff9800bf;
+}
+
+footer{
+	position: relative;
+	margin:20px auto;
+	width: 1000px;
+	height: 70px;
+	background: #888;
+	line-height: 35px;
+}
+
+
+body{
+	background: #033663;
+}
+	</style>
+</head>
+<body>
+
+<!-- Inicio de cabezote -->
+<header>
+
+	<center><h1>Estructura básica de html5 <br> (etiquetas, atributos y valores)</h1></center>
+
+	<div id="logo">
+		<a href="https://www.unad.edu.co/"><img src="img/Logo_unad.png" width="120" height="100"></a>
+	</div>
+
+	<dir id="icono1" class="redes">
+		<a href="https://www.facebook.com/UniversidadUNAD/"><img src="img/logface.png" width="42" height="42"></a>
+	</dir>
+	<dir id="icono2" class="redes">
+		<a href="https://www.instagram.com/universidadunad/?hl=es-la"><img src="img/LogInst.png" width="42" height="42"></a>
+	</dir>
+	<dir id="icono3" class="redes">
+		<a href="https://twitter.com/UniversidadUNAD?s=20"><img src="img/LogTwitter.png" width="42" height="42"></a>
+	</dir>
+
+</header>
+
+<!-- Fin de cabezote -->
+
+<!-- Inicio de Barra de Navegacion -->
+
+<nav>
+	
+	<ul>
+		<li class="botones"><a href="presentacion.html">Presentación</a></li>
+		<li class="botones"><a href="objetivos.html">Objetivos</a></li>
+		<li class="botones"><a href="contenido.html">Contenido</a> </li>
+		<li class="botones"><a href="material.html">Material</a></li>
+		<li class="botones"><a href="formulario.html">Formulario</a></li>
+	</ul>
+</nav>
+
+<!-- Fin de Barra de Navegacion -->
+
+<!-- Inicio de Parte Superior -->
+
+<div id="top">
+	<ul>
+		<li>
+			<video autoplay=""  controls="" loop="" width="326" height="192">
+				<source src="multimedia/HTML5-EtiquetasBásicas.mp4" type="video/mp4">
+			</video>
+		</li>
+		<li>
+			<video controls="" loop="" width="326" height="192">
+				<source src="multimedia/HTML5-Atributos.mp4" type="video/mp4">
+			</video>
+		</li>
+		<li>
+			<iframe width="326" height="192" src="https://www.youtube.com/embed/iQqwVmHVU2Q" frameborder="0" allowfullscreen></iframe>	
+		</li>
+	</ul>
+</div>
+
+<!-- Fin de Parte Superior -->
+
+<!-- Inicio de Seccion -->
+
+<section>
+	<aside id="izq"></aside>
+	<article>
+		<center><img src="img/icono.png" width="220" height="200"></center>
+		<h3>Presentación:</h3><br>
+<p>Ya sea como estudiante de una carrera tecnológica o como emprendedor si estás interesado en programar páginas web o quieres emprender tu futuro profesional como desarrollador de estas, deberías aprender a programar HTML5. Aunque haya otras alternativas más fáciles y rápidas de aprender, como puede ser la programación con un gestor de contenidos (CMS) como el famoso Wordpress, siempre nos resultará de gran ayuda aprender, desde el principio, los fundamentos de dicho lenguaje de programación.</p>
+	</article>
+	<aside id="der"></aside>
+</section>
+
+<!-- Fin de Seccion -->
+
+<!-- Inicio de Pie de Pagina -->
+
+<footer>
+	<center>
+		<p>
+	&copy; Todos los derechos reservados.
+	<b>Samuel Mauricio Contreras Fonseca</b> Ingenieria de Sistemas<br>
+Fecha: 07/12/2020  skype: samuelc24@outlook.com Corrreo: smcontrerasf@unadvirtual.edu.co</p>
+	</center>
+</footer>
+
+<!-- Fin de Pie de Pagina -->
+
+</body>
+</html>
